@@ -3,6 +3,15 @@ import datetime
 from django.db import models
 from django.utils import timezone
 
+
+#git이 꼬여서 지금 단계는 벌써 2번째 단계까지 진행한 단계라서
+#commit만 더하겠습니다.
+#양해부탁드려요~~
+
+
+
+
+
 class Question(models.Model):
     question_text = models.CharField(max_length=200)
     pub_date = models.DateTimeField('date published')
