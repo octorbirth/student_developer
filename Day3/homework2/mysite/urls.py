@@ -20,3 +20,13 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'', include('blog.urls')),
 ]
+
+# 이것은 쉘에서 콘트롤하는 단계라서 따로 코드를 기재하지는 않겠습니다~~
+
+
+
+
+
+
+
+###
